@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+
+
+int main()
+{
+ int a,b,soma;
+          
+        printf("digite um numero pra fazer sua soma\n");
+        scanf("%i", &a);
+        printf("digite um numero pra fazer sua soma\n");
+        scanf("%i", &b);
+        soma = a+b;
+        printf("a soma e %i", soma);
+
+
+    return 0;
+}
