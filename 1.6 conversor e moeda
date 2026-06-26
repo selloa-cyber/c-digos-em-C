@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+
+int main()
+{
+    float reais, dolar;
+    
+    printf("digite o valor em reais para converao\n");
+    scanf("%f", &reais);
+    
+    dolar = reais / 4.99;
+    
+    printf("o valor convertido e:$%.2f dolars", dolar);
+
+    return 0;
+}
